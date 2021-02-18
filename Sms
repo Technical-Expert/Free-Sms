@@ -27,9 +27,9 @@ banner() {
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing TBomb'
+        echo 'Introducing TECHNICAL EXPERT'
     else
-        figlet TBomb
+        figlet TECHNICAL EXPERT
     fi
     if ! [ -x "$(command -v toilet)" ]; then
         echo -e "\e[4;34m This Bomber Was Created By \e[1;32mSpeedX \e[0m"
